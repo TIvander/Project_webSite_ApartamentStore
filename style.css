@@ -12,8 +12,24 @@ header {
     border-bottom: 1px solid #333;
     background: rgba(0, 0, 0, 0.1)
 }
-header div {
+header div{
     text-align: center;
+}
+header .links{
+    width: 300px;
+    margin: 0 auto;
+}
+.logo img{
+    width: 90px;
+    height: 88px;
+    position: relative;
+    float:left;
+    margin-top: -30px;
+    background: rgba(255, 255, 255, 0.027);
+    border-radius: 10px;
+}
+.logo img:hover{
+    background:scroll ;
 }
 header div a {
     color: white;
@@ -28,6 +44,7 @@ header div a:hover{
     color:#50fa7b;
     transition: 200ms;
 }
+
 #imgPcs{
    text-align: center;
    margin-top: 50px; 
@@ -74,7 +91,7 @@ header div a:hover{
     
 }
 
-.w img{
+.icones_contato img{
     width: 60px;
     margin: 0 15px;
 }
